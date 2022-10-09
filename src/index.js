@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-require('dotenv').config({ path: 'sample.env' })
+require('dotenv').config()
 const db = require('./DB/connection')
 const Client = require('./model/model')
 const router = require('./router/router')

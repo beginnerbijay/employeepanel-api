@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-require('dotenv').config({ path: 'sample.env' })
+require('dotenv').config()
 const db = mongoose.connect(process.env.MONGOURL,
   {
     useNewUrlParser: true,
